@@ -1,0 +1,85 @@
+/* головний колір шрифта #212121 */
+/* другорядний колір шрифта #757575 */
+/* акцент шрифт #2196F3  */
+/* background-color 1: #2F303A  */
+/* background-color 2 #F5F5F5*/
+/* background-color team 3 #F5F4FA; */
+/*  */
+
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    color: #2196F3;
+}
+.logo-studio {
+    color: #212121;
+}
+/* */
+/* main */
+.main, 
+.footer {
+    background-color: #2F303A;
+}
+.main-title {
+    color: #FFFFFF;
+}
+.buttom {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* site nav */ 
+.nav-studio {
+    color: #2196F3;
+}
+.nav-page {
+    color: #212121;
+}
+.section-title {
+    color: #212121;
+}
+/* our team */
+.section {
+    background-color: #F5F4FA;
+}
+.section-image {
+    background-color: #FFFFFF;
+}
+.section-text {
+    color: #757575;
+}
+/* contacts */
+.link-tel {
+    color: #757575;
+}
+.link-mail {
+    color: #2196F3;
+}
+/* portfolio */
+.section-color {
+    background-color: #F5F4FA;
+}
+.function-color {
+    background-color: #FFFFFF;
+}
+.section-color-all {
+    background-color: #2196F3;
+}
+/* footer */
+.logo-studiof {
+    color: #FFFFFF;
+}
+.footer-adress {
+    color: #FFFFFF;
+}
+.footer-info {
+    color: rgba(255, 255, 255, 0.6);
+}
+
