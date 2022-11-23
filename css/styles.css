@@ -5,10 +5,12 @@
 /* background-color 2 #F5F5F5*/
 /* background-color team 3 #F5F4FA; */
 /*  */
-
+:root {
+    --color-text-primery: #212121;
+    --color-text-secondary: #757575;
+}
 body {
     background-color: #FFFFFF;
-    color: #212121;
 }
 a {
     text-decoration: none;
@@ -20,9 +22,8 @@ ul {
     color: #2196F3;
 }
 .logo-studio {
-    color: #212121;
+    color: var(--color-text-primery);
 }
-/* */
 /* main */
 .main, 
 .footer {
@@ -31,7 +32,7 @@ ul {
 .main-title {
     color: #FFFFFF;
 }
-.buttom {
+.button {
     color: #FFFFFF;
     background-color: #2196F3;
 }
@@ -40,10 +41,10 @@ ul {
     color: #2196F3;
 }
 .nav-page {
-    color: #212121;
+    color: var(--color-text-primery);
 }
 .section-title {
-    color: #212121;
+    color: var(--color-text-primery);
 }
 /* our team */
 .section {
@@ -53,11 +54,11 @@ ul {
     background-color: #FFFFFF;
 }
 .section-text {
-    color: #757575;
+    color: var(--color-text-secondary);
 }
 /* contacts */
 .link-tel {
-    color: #757575;
+    color: var(--color-text-secondary);
 }
 .link-mail {
     color: #2196F3;
