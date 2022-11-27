@@ -2,9 +2,11 @@
     --color-text-primary: #212121;
     --color-text-secondary: #757575;
     --color-akcent: #2196F3;
+    --color-text-footer: #FFFFFF;
     --background-color-primary: #FFFFFF;
     --background-color-secondary: #F5F4FA;
     --background-color-akcent: #2F303A;
+    --background-color-akcent-secondary: #188ce8;
 }
 body {
     color: var(--color-text-primary);
@@ -20,38 +22,42 @@ ul {
 }
 .logo {
     color: var(--color-akcent);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 .logo-studio {
     color: var(--color-text-primary);
+}
+.logo,
+.logo-studio
+ {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .main-button {
     color: var(--background-color-primary);
     background-color: var(--color-akcent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.87;
     letter-spacing: 0.06em;
+}
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--background-color-akcent-secondary);
 }
 /* contacts */
 .contakt-link {
     color: var(--color-text-secondary);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .contakt-link:hover {
@@ -65,22 +71,22 @@ ul {
 .site-nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-studio {
-    color: var(--color-text-primary);
-}
-.nav-studio:hover {
-    color: var(--color-akcent);
-}
-.nav-studio:focus {
-    color: var(--color-akcent);
-}
+.nav-studio,
 .nav-page {
     color: var(--color-text-primary);
 }
-.nav-page:hover {
+.nav-studio:hover,
+.nav-studio:focus {
+    color: var(--color-akcent);
+}
+.nav-page:hover,
+.nav-page:focus {
+    color: var(--color-akcent);
+}
+.nav-studio:visited {
     color: var(--color-akcent);
 }
 /* main */
@@ -100,6 +106,7 @@ ul {
 .button {
     color: var(--background-color-primary);
     background-color: var(--background-color-secondary);
+    cursor: pointer;
 }
 /*features*/
 .features-title {
@@ -110,14 +117,12 @@ ul {
 }
 .section-text {
     color: var(--color-text-secondary);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 /* what we do */
 .section-title {
     color: var(--color-text-primary);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -133,64 +138,68 @@ ul {
     color: var(--color-text-primary);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 .section-position {
     color: var(--color-text-secondary);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
 }
 /* portfolio */
-.button {
-    color: var(--background-color-primary);
+.button-portfolio {
+    color: var(--color-text-primary);
     background-color: var(--background-color-secondary);
     font-family: inherit;
-    font-weight: 700;
+    border: none;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
-.button-portfolio:hover {
-    background-color: var(--background-color-secondary);
-    background-color: var(--color-akcent);
-}
+.button-portfolio:hover,
 .button-portfolio:focus {
-    background-color: var(--background-color-secondary);
-    background-color: var(--color-akcent);
+    background-color: var(--background-color-primary);
+}
+.section-project {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
  /* footer */
+
 .footer {
 }
+
 .logo-footer {
     color: var(--color-akcent);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 .logo-studiof {
     color: var(--background-color-primary);
+}
+.logo-footer,
+.logo-studiof {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .footer-adress {
     color: var(--background-color-primary);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 .footer-info {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-text-footer);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
