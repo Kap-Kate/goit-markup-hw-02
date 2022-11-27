@@ -174,10 +174,6 @@ ul {
     letter-spacing: 0.03em;
 }
  /* footer */
-
-.footer {
-}
-
 .logo-footer {
     color: var(--color-akcent);
 }
@@ -207,5 +203,5 @@ ul {
 }
 .footer-info:hover,
 .footer-info:focus {
+    color: var(--color-akcent);
 }
-
