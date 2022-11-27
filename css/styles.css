@@ -2,7 +2,7 @@
     --color-text-primary: #212121;
     --color-text-secondary: #757575;
     --color-akcent: #2196F3;
-    --color-text-footer: #FFFFFF;
+    --color-text-footer: #ffffff99;
     --background-color-primary: #FFFFFF;
     --background-color-secondary: #F5F4FA;
     --background-color-akcent: #2F303A;
@@ -207,6 +207,5 @@ ul {
 }
 .footer-info:hover,
 .footer-info:focus {
-    color: var(--color-akcent);
 }
 
